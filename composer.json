@@ -1,0 +1,31 @@
+{
+  "name": "sbrendtro/magento2-customapifield",
+  "description": "Extension for Magento 2 to add a custom shipping date field to the REST API for orders",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "gplv3",
+  "authors": [
+    {
+      "name": "Steven Brendtro",
+      "email": "info@goidp.com",
+      "homepage": "https://goidp.com",
+      "role": "Technical Support"
+    }
+  ],
+  "minimum-stability": "dev",
+  "keywords": [
+    "magento 2",
+    "magento 2 api",
+    "magento api",
+    "order api"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "IDP\\CustomApiField\\": ""
+    }
+  }
+}
+
